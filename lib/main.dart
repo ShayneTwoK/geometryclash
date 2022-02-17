@@ -1,13 +1,14 @@
-import 'package:flame/flame.dart';
-import 'package:flutter/material.dart';
 import 'package:flame/game.dart';
-import 'package:flutter/services.dart';
+import 'package:flutter/material.dart';
+import 'package:flutter/foundation.dart';
 import 'package:geometryclash/geometryclash.dart';
 
 void main() {
   runApp(const MyApp());
 }
 
+// A single instance to avoid creation of
+// multiple instances in every build.
 final _game = GeometryClash();
 
 class MyApp extends StatelessWidget {
@@ -17,12 +18,14 @@ class MyApp extends StatelessWidget {
   Widget build(BuildContext context) {
     return MaterialApp(
       title: 'Welcome to Flutter',
+      theme: ThemeData(
+        primarySwatch: Colors.blue,
+      ),
       home: Scaffold(
         body: GameWidget(
-          game: _game,
-          ),
+          game: kDebugMode ? GeometryClash() : _game,
         ),
+      ),
     );
   }
 }
-

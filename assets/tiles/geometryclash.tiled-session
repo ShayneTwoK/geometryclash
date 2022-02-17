@@ -1,0 +1,92 @@
+{
+    "Map/SizeTest": {
+        "height": 4300,
+        "width": 2
+    },
+    "activeFile": "map.tmx",
+    "expandedProjectPaths": [
+    ],
+    "file.lastUsedOpenFilter": "All Files (*)",
+    "fileStates": {
+        "E:/tiles/block2.tsx": {
+            "scaleInDock": 1
+        },
+        "Grounds/groundSquare.tsx": {
+            "scaleInDock": 1
+        },
+        "Obstacle/block1.tsx": {
+            "scaleInDock": 1
+        },
+        "Obstacle/block2.tsx": {
+            "scaleInDock": 1
+        },
+        "Obstacle/pit1.tsx": {
+            "scaleInDock": 1
+        },
+        "Obstacle/spikes1.tsx": {
+            "scaleInDock": 1
+        },
+        "block1.tsx": {
+            "scaleInDock": 1,
+            "scaleInEditor": 1
+        },
+        "block2.tsx": {
+            "scaleInDock": 1,
+            "scaleInEditor": 1
+        },
+        "gameBg1.tsx": {
+            "scaleInDock": 0.33,
+            "scaleInEditor": 1
+        },
+        "game_bg_01_001-hd.tsx": {
+            "scaleInDock": 1,
+            "scaleInEditor": 1
+        },
+        "groundSquare.tsx": {
+            "scaleInDock": 1,
+            "scaleInEditor": 0.33
+        },
+        "map.tmx": {
+            "scale": 0.25,
+            "selectedLayer": 1,
+            "viewCenter": {
+                "x": 3610,
+                "y": -294
+            }
+        },
+        "pit1.tsx": {
+            "scaleInDock": 1,
+            "scaleInEditor": 1
+        },
+        "spikes1.tsx": {
+            "scaleInDock": 1,
+            "scaleInEditor": 1
+        },
+        "tiles/block2.tsx": {
+            "scaleInDock": 1
+        }
+    },
+    "last.externalTilesetPath": "E:/Users/Shayne/Documents/MOBILE/geometryclash/assets/tiles",
+    "last.imagePath": "E:/Users/Shayne/Documents/MOBILE/geometryclash/assets/images/obstacles",
+    "map.lastUsedFormat": "tmx",
+    "openFiles": [
+        "map.tmx"
+    ],
+    "project": "geometryclash.tiled-project",
+    "recentFiles": [
+        "block1.tsx",
+        "block2.tsx",
+        "map.tmx",
+        "groundSquare.tsx",
+        "spikes1.tsx",
+        "pit1.tsx",
+        "gameBg1.tsx",
+        "game_bg_01_001-hd.tsx"
+    ],
+    "resizeMap.removeObjects": false,
+    "tileset.lastUsedFormat": "tsx",
+    "tileset.tileSize": {
+        "height": 298,
+        "width": 298
+    }
+}
